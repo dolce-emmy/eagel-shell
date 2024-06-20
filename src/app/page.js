@@ -1,10 +1,11 @@
 import Image from "next/image";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
-import eagle1 from "/public/images/eagle1.jpg";
 import eagleTrans from "/public/images/eagleTrans.png";
 import eagle from "/public/images/eagle.gif";
-import { CheckCheckIcon } from "lucide-react";
-
+import { CheckCheckIcon, LucideListStart, StarHalf, StarHalfIcon } from "lucide-react";
+import UsersImage from "@/components/UsersImage";
+import { StarFilledIcon } from "@radix-ui/react-icons";
+import StarsIconArray from "../components/StarsIconArray";
 export default function Home() {
   return (
     <main className="bg-gradient-to-b from-[#111B25] from-0 via-[#2B4C5B] via-35% to-[#305766] to-100 text-snow">
@@ -69,6 +70,34 @@ export default function Home() {
                   </li>
                 </div>
               </ul>
+              <div
+                className="mt-12 flex flex-col sm:flex-row items-center
+              sm:items-start gap:5
+              "
+              >
+                <div className="flex -space-x-4">
+                  <UsersImage />
+                </div>
+              </div>
+              <div
+                className="flex flex-col justify-center items-center
+                sm:items-start 
+                "
+              >
+                <div className="flex  gap-0.5 pt-5">
+                  <StarFilledIcon className="w-6 h-6 text-earthYellow" />
+                  <StarFilledIcon className="w-6 h-6 text-earthYellow" />
+                  <StarFilledIcon className="w-6 h-6 text-earthYellow" />
+                  <StarFilledIcon className="w-6 h-6 text-earthYellow" />
+                  <StarHalfIcon className="w-6 h-6 text-earthYellow fill-earthYellow"  />
+                  {/* <StarsIconArray /> */}
+                </div>
+                
+              </div>
+              <p className="">
+                <span className="font-semibold ">1500 </span>
+                happy customers
+              </p>
             </div>
           </div>
         </MaxWidthWrapper>

@@ -13,7 +13,17 @@
       "@context/*": ["./src/context/*"],
       "@layouts/*": ["./src/layouts/*"],
       "@routes/*": ["./src/routes/*"],
-      "@types/*": ["./src/types/*"]
+      "@types/*": ["./src/types/*"],
+      "@config/*": ["./src/config/*"],
+      "@store/*": ["./src/store/*"],
+      "@api/*": ["./src/api/*"],
+      "@mocks/*": ["./src/mocks/*"],
+      "@test/*": ["./src/test/*"],
+      "@public/*": ["./public/*"],
+      "@root/*": ["./"],
+      "@storybook/*": ["./.storybook/*"],
+      
+      
       
 
 

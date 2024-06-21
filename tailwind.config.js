@@ -17,6 +17,7 @@ module.exports = {
       },
     },
     extend: {
+      
       colors: {
         dark: "#1b1b1b",
         light: "#f5f5f5",
@@ -31,6 +32,7 @@ module.exports = {
         caputMortuum: "#4B2B29",
         earthYellow: "#E0B260",
         moonstone: "#2B4C5B",
+        redwood: "#A93F41",
         snow: "#FFF7F5",
         
         border: "hsl(var(--border))",

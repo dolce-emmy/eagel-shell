@@ -26,7 +26,7 @@ return (
         src={imgSrc}
         alt="dog"
         priority
-        className={`object-cover rounded-[2.5rem] border-richBlack border-[0.5rem] w-full h-full ${dark? 'border-snow' : 'border-richBlack'}`}
+        className={`object-cover rounded-[2.5rem]  border-richBlack border-[0.5rem] w-full h-full ${dark? 'border-snow' : 'border-richBlack'}`}
       />
     </div>
   </div>

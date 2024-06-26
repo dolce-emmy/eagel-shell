@@ -16,6 +16,7 @@ import arrow from "/public/arrows/white-arrow.png";
 import line from "/public/phone/line.png";
 import Phone from "@/components/Phone";
 import dog from "/public/testimonials/1.jpg";
+import marie from "/public/pics/Default_Create_a_striking_portrait_of_a_Baroque_period_woman_w_2_6787b920-36a2-4f0c-b63c-43dfce411d89_0.jpg"
 export default function Home() {
   return (
     <>
@@ -141,7 +142,7 @@ export default function Home() {
                   
                   /> */}
                 </p>
-                <Phone className="w-64" imgSrc={dog} />
+                <Phone className="w-64" imgSrc={marie} />
                 {/* <Image
               src={yourImage}
               alt= "your image on a phone case"
